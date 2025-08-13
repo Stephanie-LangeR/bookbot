@@ -9,9 +9,8 @@ def main():
     book_path = "books/frankenstein.txt"
     text = get_book_text(book_path) # Get the text
     num_words = get_num_words(text) # Pass the text to get_num_words
-    char_count = get_num_char(text)
+    char_count = get_num_char(text) # Pass the text to get_num_char
     print(f"{num_words} words found in the document")
     print(char_count)
     
-        
 main() # Call main to start the program
