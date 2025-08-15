@@ -15,7 +15,7 @@ def main():
     print("============ BOOKBOT ============")
     print("Analyzing book found at books/frankenstein.txt...")
     print("----------- Word Count ----------")
-    print(f"{num_words} words found in the document")
+    print(f"Found {num_words} total words")
     print("--------- Character Count -------")
     for item in sorted_list:
         if item["char"].isalpha():
