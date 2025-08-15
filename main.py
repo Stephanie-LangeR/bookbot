@@ -18,7 +18,7 @@ def main():
     char_count = get_num_char(text) # Pass the text to get_num_char
     sorted_list = get_sorted_list(char_count) # Pass the dictionary char_count to get_sorted_list
     print("============ BOOKBOT ============")
-    print("Analyzing book found at books/*.txt...")
+    print(f"Analyzing book found at {book_path}...")
     print("----------- Word Count ----------")
     print(f"Found {num_words} total words")
     print("--------- Character Count -------")
