@@ -17,5 +17,8 @@ def main():
     print("----------- Word Count ----------")
     print(f"{num_words} words found in the document")
     print("--------- Character Count -------")
-    print(sorted_list)
+    for item in sorted_list:
+        if item["char"].isalpha():
+            print(item["char"], ": ", item["num"])
+
 main() # Call main to start the program
