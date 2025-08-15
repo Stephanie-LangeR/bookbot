@@ -1,3 +1,4 @@
+import sys
 from stats import get_num_words
 from stats import get_num_char
 from stats import get_sorted_list
@@ -20,5 +21,5 @@ def main():
     for item in sorted_list:
         if item["char"].isalpha():
             print(item["char"]+":",item["num"])
-
+    print(sys.argv[1])
 main() # Call main to start the program
